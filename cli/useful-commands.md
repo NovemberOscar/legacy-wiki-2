@@ -33,3 +33,23 @@ alias lion="clion ."
 fzf --preview "cat {}"
 ```
 
+### fzf + cd = fd
+커맨드라인에서 디렉토리를 전환할때 매번 숨쉬는것과 같이 ls 한번 치고 cd를 수행하는것이 귀찮기 때문에 fzf로 옮겨갈 디렉토리를 보고 바로 선택한 디렉토리로 옮겨가고 싶었다.
+
+먼저 [fzf 공식 예제](https://github.com/junegunn/fzf/wiki/examples#changing-directory)에서 기본 틀을 빌렸다.
+
+```bash
+fd() {
+  DIR=`find * -maxdepth 0 -type d -print 2> /dev/null | fzf-tmux` \
+    && cd "$DIR"
+}
+```
+fzf에는 프리뷰 기능도 있기때문에 프리뷰로 선택한 디렉토리 안에 무엇을 있는지도 동시에 보기 위해 tree를 활용한 프리뷰를 추가했다.
+
+```diff
+fd() {
++  DIR=`find * -maxdepth 0 -type d -print 2> /dev/null | fzf-tmux --preview "tree {} -L 3"` \
+-  DIR=`find * -maxdepth 0 -type d -print 2> /dev/null | fzf-tmux` \
+    && cd "$DIR"
+}
+```
