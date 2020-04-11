@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Auxiliary Memory](README.md)
+* [Auxiliary Memory / 보조기억장치](README.md)
 * [Bookmarks](bookmarks.md)
 
