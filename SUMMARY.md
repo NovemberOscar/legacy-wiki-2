@@ -13,7 +13,7 @@
   * [TypeScript](programming-languages/typescript.md)
   * [Python](programming-languages/python.md)
   * [Rust](programming-languages/rust.md)
-  * [F\#](programming-languages/f.md)
+  * [F\#](programming-languages/fsharp.md)
 * [CLI](cli/README.md)
   * [dotfiles](cli/dotfiles.md)
   * [Useful Commands](cli/useful-commands.md)
