@@ -9,6 +9,8 @@
   * [2020 Memo](memo/2020.md)
 * [Programming](programming/README.md)
   * [When to refactoring?](programming/when-to-refactoring.md)
+  * [Functional Programming](programming/functional-programming/README.md)
+    * [ADT](programming/functional-programming/adt.md)
 * [Programming Languages](programming-languages/README.md)
   * [TypeScript](programming-languages/typescript.md)
   * [Python](programming-languages/python.md)
