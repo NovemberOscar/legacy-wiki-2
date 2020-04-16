@@ -12,6 +12,9 @@
 - [ ] Ahriman - The Omnibus (해외도서) / 존 프렌치
 - [ ] 더 위험한 과학책 / 랜들 먼로
 - [ ] 앨런 튜링, 지능에 관하여 / 앨런 튜링
+- [ ] 인트로덕션 투 알고리즘
+- [ ] Pro Git
+- [ ] A Tutorial Introduction to the Lambda Calculus / Raul Rojas
 
 ## 2019
 
