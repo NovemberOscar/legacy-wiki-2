@@ -54,3 +54,5 @@ description: Raul Rojas, "A Tutorial Introduction to the Lambda Calculus", Freie
         - `(λz.z) ≡ (λy.y) ≡ (λt.t) ≡ (λu.u)` 이 모든 함수들은 모두 같다.
         - `(λx.x)y` 은 `(λ∇.∇)y`와 같은 의미다.
     - 이런 알파벳 치환은 "α-reduction" 이라고도 불린다.
+
+## Free and bound variables
