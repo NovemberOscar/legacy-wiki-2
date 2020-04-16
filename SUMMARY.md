@@ -2,6 +2,8 @@
 
 * [Auxiliary Memory / 보조기억장치](README.md)
 * [Bookmarks](bookmarks.md)
+* [Books](books/README.md)
+* [Movies](movies/README.md)
 * [Yearly Records](yearly-records/README.md)
   * [Records of 2020](yearly-records/2020.md)
   * [Records of 2019](yearly-records/2019.md)
