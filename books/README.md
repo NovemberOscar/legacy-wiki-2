@@ -1,5 +1,7 @@
 # Books
 
+6개월 이상 지난 책들은 [큐](books/reading-queue.md)로 옮긴다.
+
 ## 2020
 - [x] 2020-04 Gathering Storm: Rise of the Primarch (해외도서) - Gav Thorpe
 - [x] 2020-03 1453 콘스탄티노플 최후의 날
