@@ -56,3 +56,32 @@ description: Raul Rojas, "A Tutorial Introduction to the Lambda Calculus", Freie
     - 이런 알파벳 치환은 "α-reduction" 이라고도 불린다.
 
 ## Free and bound variables
+
+- 우리는 알파벳을 심볼로 사용하기 때문에 동일한 알파벳을 반복해서 사용하는 것에 주의해야 함.
+- 람다 계산법에서 모든 이름은 지역에 묶인다.
+    - 함수 `λx.x`의 `x`는 함수 인자로 나타난 이름이기 때문에 "묶였다" 라고 말한다
+    - 인자로 들어오지 않는 이름들은 "자유 변수" 라고 불린다.
+
+- `(λx.x)(λy.yx)`
+    - 첫번째 함수의 x는 λ에 묶인다.
+    - 두번째 함수의 y도 λ에 묶인다.
+        - 하지만 두번째 함수의 x는 자유 변수다.
+    - **두번째 함수의 x는 첫번째 함수의 x와 완전히 별개**
+    - `(λx.x)(λy.yx) -> (λy.yx)x -> (λ. x)`
+        - 축약해보면 x가 남는걸 볼 수 있음.
+
+- 형식적으로 다음의 케이스에서 `<name>` 은 식 안에서 자유롭다.
+    - `<name>` 은 `<name>` 안에서 자유롭다
+        - a is free in a
+    - `<name>`은 식별자 `<name> != <name1>` 라면 `λ<name1>.<exp>` 안에서 자유롭다. + `<exp>` 안에서도 자유롭다.
+        - y is free in λx.y
+    - `<name>` 은 적어도 한 람다 함수에서 자유로우면 전체 E1E2 안에서도 자유롭다. 
+        - x is free in (λx.x)x
+
+- 다음의 케이스에서 `<name>`은 속박된다.
+    -  `<name>` is bound in `λ <name1 >. <exp>` if the identifier `<name>=<name1>` or if `<name>` is bound in `<exp>`.
+        - x is bound in (λy.(λx.x)).
+    - `<name>` is bound in E1E2 if `<name>` is bound in E1 or if it is bound in E2. 
+        - x is bound in (λx.x)x.
+        
+- `(λx.xy)(λy.y)` 에서 보듯이 같은 식별자라도 한 식에서 자유로울수도 있고 속박되어 있을 수도 있다.
