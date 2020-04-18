@@ -30,8 +30,8 @@ description: '"Hello World!" |> printfn'
 - [x] 2020-04-04 Correctness
 - [x] 2020-04-04 Immutability
 - [x] 2020-04-04 Exhaustive pattern matching
-- [ ] Using the type system to ensure correct code
-- [ ] Worked example: Designing for correctness
+- [x] 2020-04-18 Using the type system to ensure correct code
+- [x] 2020-04-18 Worked example: Designing for correctness
 - [ ] Concurrency
 - [ ] Asynchronous programming
 - [ ] Messages and Agents
