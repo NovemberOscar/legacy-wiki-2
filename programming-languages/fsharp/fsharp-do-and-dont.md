@@ -7,7 +7,7 @@ Source: [Learning F# - Dos and Don'ts](https://fsharpforfunandprofit.com/learnin
 * `mutable`키워드를 떡칠하지 말자. 가변 상태 없이 복잡한 함수를 짜는 것은 함수형을 이해하는데 도움이 된다.
 * `for` 그리고 `if-then-else` 를 쓰지 말자. 패턴 매칭과 재귀를 써라.
 * `dot notation`을 사용하지 말자. `"hello".Length` 보단 `String.length "hello"` 를 쓰도록 하자. 고차 함수를 사용할때는 이 방식이 필수적이다.
-* 클래스 대신 튜플, 레코드, 유니언같은 순수한 유형만 사용하자. 
+* 클래스 대신 가급적 튜플, 레코드, 유니언같은 순수한 타입만 사용하자. 
 * 디버거는 도움이 안된다. 컴파일러 에러 잡는 가장 좋은 방법은 머리를 쓰는 것이다.
 
 ## Do
