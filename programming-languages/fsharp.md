@@ -32,7 +32,7 @@ description: '"Hello World!" |> printfn'
 - [x] 2020-04-04 Exhaustive pattern matching
 - [x] 2020-04-18 Using the type system to ensure correct code
 - [x] 2020-04-18 Worked example: Designing for correctness
-- [ ] Concurrency
+- [x] 2020-04-19 Concurrency
 - [ ] Asynchronous programming
 - [ ] Messages and Agents
 - [ ] Functional Reactive Programming
