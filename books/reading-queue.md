@@ -17,3 +17,4 @@ description: 주기적으로 재정렬 및 정리할것!
 7. IT에 몸담은 이들을 위한 지적 생산 기술
 8. 개발자의 글쓰기
 9. 듄 1부
+10. [Domain Modeling Made Functional](https://pragprog.com/book/swdddf/domain-modeling-made-functional)
