@@ -33,4 +33,5 @@
   * [Useful Commands](cli/useful-commands.md)
 * [Tools](tools/README.md)
   * [PyCharm](tools/pycharm.md)
-
+* [Lifehack](lifehack/README.md)
+  * [Keyboard](lifehack/keyboard.md)
