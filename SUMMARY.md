@@ -35,3 +35,4 @@
   * [PyCharm](tools/pycharm.md)
 * [Lifehack](lifehack/README.md)
   * [Keyboard](lifehack/keyboard.md)
+  * [Coding on iPad](lifehack/ipad-coding.md)
