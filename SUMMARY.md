@@ -18,6 +18,7 @@
   * [When to refactoring?](programming/when-to-refactoring.md)
   * [Functional Programming](programming/functional-programming/README.md)
     * [ADT](programming/functional-programming/adt.md)
+    * [Functor and Monads](programming/functional-programming/functor-and-monads.md)
   * [DevOps](programming/devops/README.md)
     * [How our infrastructure organized](programming/devops/how-our-infrastructure-orgnaized.md)
 * [Programming Languages](programming-languages/README.md)
