@@ -15,6 +15,7 @@
     * 아버지께 넘겨드린 상태
 
 ## Links
+* [키보드 청소에는 제도브러시](https://twitter.com/_Akamig/status/1251724626893258753)
 * [키크론 K2 - 네이버쇼핑](http://smartstore.gtgear.com/products/4716867026)
     * 맥 호환 블루투스 키보드!
     * 너무 비싸다 ㅠㅠ 외국이랑 비교했을때 마진 너무 높게잡는것같다
