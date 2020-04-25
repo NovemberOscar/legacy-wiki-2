@@ -32,6 +32,7 @@
 * [CLI](cli/README.md)
   * [dotfiles](cli/dotfiles.md)
   * [Useful Commands](cli/useful-commands.md)
+  * [Reducing ZSH startup time](cli/reduce-zsh-startup.md)
 * [Tools](tools/README.md)
   * [PyCharm](tools/pycharm.md)
 * [Lifehack](lifehack/README.md)
