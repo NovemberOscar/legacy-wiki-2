@@ -52,34 +52,54 @@ ln -snf Brewfile ~/Brewfile
 
 회사 동료분 스크립트에서 많은 부분을 가져와서 유저네임과 이메일, 그리고 서명 키를 대화형으로 완성할수 있도록 구성했다.
 
-```text
+```properties
 [user]
-    name = [[GIT_NAME]]
-    email = [[GIT_EMAIL]]
-    signingkey = [[GIT_SIGN_KEY]]
+	name = {{GIT_NAME}}
+	email = {{GIT_EMAIL}}
+    signingkey = {{GIT_SIGN_KEY}}
 ```
 
 이 템플릿을 이런 Makefile을 사용해서 완성할 수 있다.
 
-```text
+```makefile
 .PHONY: git
 git: ## Install git configs.
-    @cp $(CURDIR)/gitconfig $(HOME)/.gitconfig
-    @read -p "Enter your name: " git_name; \
-        sed -i -e "s/\[[GIT_NAME]]/$$git_name/g" $(HOME)/.gitconfig
-    @read -p "Enter your e-mail: " git_email; \
-        sed -i -e "s/[[GIT_EMAIL]]/$$git_email/g" $(HOME)/.gitconfig
-    @read -p "Enter your GPG key ID: " git_sign_key; \
-        sed -i -e "s/[[GIT_SIGN_KEY]]/$$git_sign_key/g" $(HOME)/.gitconfig
+	ln -sfn $(CURDIR)/gitalias $(HOME)/.gitalias
+	@cp $(CURDIR)/gitconfig $(HOME)/.gitconfig
+	@read -p "Enter your name: " git_name; \
+		sed -i -e "s/{{GIT_NAME}}/$$git_name/g" $(HOME)/.gitconfig
+	@read -p "Enter your e-mail: " git_email; \
+		sed -i -e "s/{{GIT_EMAIL}}/$$git_email/g" $(HOME)/.gitconfig
+	@read -p "Enter your GPG key ID: " git_sign_key; \
+		sed -i -e "s/{{GIT_SIGN_KEY}}/$$git_sign_key/g" $(HOME)/.gitconfig
 ```
 
-약간의 문제로 이런식으로 사용하면 symlink가 아니기 때문에 한쪽에서 alias를 수정한다 해도 다른쪽에는 반영되지 않는 문제가 있다. aliass는 include로 사용할수 있도록 개선할 필요가 있다.
+~~약간의 문제로 이런식으로 사용하면 symlink가 아니기 때문에 한쪽에서 alias를 수정한다 해도 다른쪽에는 반영되지 않는 문제가 있다. aliass는 include로 사용할수 있도록 개선할 필요가 있다.~~
+
+gitconfig 분문은 카피한 후 alias는 링크를 걸고 gitconfig가 인클루드해서 사용하도록 변경했다.
 
 ### .zshrc
 
 현재 있는 .zshrc 파일을 dotfiles 아래로 복사하고 있던 파일을 지운다음 symlink를 걸었다.
 
-alias 들을 추후에 분리할 필요가 있을것 같다고 느낀다.
+~~alias 들을 추후에 분리할 필요가 있을것 같다고 느낀다.~~
+
+```makefile
+.PHONY: zsh 
+zsh: ## Install the zsh related dotfiles.
+	@echo "Starting zsh Setup..."
+	mkdir -p ~/.zfunc
+	@cp $(CURDIR)/zsecrets $(HOME)/.zsecrets
+	@read -p "Enter your GitHub token: " github_token; \
+		sed -i -e "s/{{GITHUB_TOKEN}}/$$github_token/g" $(HOME)/.zsecrets
+	ln -sfn $(CURDIR)/zshrc $(HOME)/.zshrc
+	ln -sfn $(CURDIR)/fd $(HOME)/.zfunc/fd
+	git clone https://github.com/davidparsson/zsh-pyenv-lazy.git $(HOME)/.oh-my-zsh/custom/plugins/pyenv-lazy 2>/dev/null ||:
+	git clone https://github.com/lukechilds/zsh-nvm $(HOME)/.oh-my-zsh/custom/plugins/zsh-nvm 2>/dev/null ||:
+	@echo "Done! (zsh)\n"
+```
+
+zfunc로 함수들을 옮긴 후 로딩해서 사용하고 aws 키나 깃허브 토큰같은 민감한 정보들은 git과 동일한 방식으로 설정하도록 바꾸었다. 실행시간을 줄이기 위해 lazy-loading을 위한 플러그인을 설치하는 명령어도 추가했다.
 
 ### iTerm2 설정
 
@@ -97,7 +117,7 @@ pyenv는 brew를 통해 설치되기 때문에 python 설치 스크립트는 따
 
 rustup이 깔려있지않다면 설치하고 자동완성과 프로파일을 설치한다.
 
-```text
+```makefile
 RUST := $(HOME))/.cargo/bin/rustup
 
 .PHONY: rust
@@ -115,14 +135,14 @@ $(RUST):
 
 Poetry도 비슷한 과정으로 설치 가능하다.
 
-```text
+```makefile
 POETRY := $(HOME)/.poetry/bin/poetry
 
 .PHONY: poetry
 poetry: | $(POETRY)
     poetry self update
     mkdir -p $(ZSH)/plugins/poetry
-    poetry completions zsh > ~/.zfunc/_poetry
+    poetry completions zsh > $(ZSH)/plugins/poetry/_poetry
 
 $(POETRY):
     curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
