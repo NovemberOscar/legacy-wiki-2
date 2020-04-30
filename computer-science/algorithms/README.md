@@ -3,9 +3,9 @@
 ## Introduction to algorithms
 
 - [ ] I 기초
-    - [ ] 개요
-    - [ ] 1장. 알고리즘의 역할
-        - [ ] 1.1 알고리즘
+    - [x] 개요
+    - [ ] [1장. 알고리즘의 역할](/computer-science/algorithms/introduction-to-algorithms/1.1.md)
+        - [x] 1.1 알고리즘
         - [ ] 1.2 기술로서의 알고리즘
     - [ ] 2장. 시작하기
         - [ ] 2.1 삽입 정렬
