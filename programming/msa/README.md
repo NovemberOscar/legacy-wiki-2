@@ -7,6 +7,7 @@
   * [Consul / Connect - Service Mesh](https://www.consul.io/docs/connect/index.html)
     * [Consul에 대해서](http://longbe00.blogspot.com/2017/08/consul.html)
   * [Istio #1 - 마이크로 서비스와 서비스 매쉬](https://bcho.tistory.com/1293?category=731548)
+  * [AWS App Mesh](https://aws.amazon.com/ko/app-mesh/)
 * 서비스 디스커버리
   * [마이크로서비스 Microservices (4) 서비스 디스커버리](https://futurecreator.github.io/2018/10/18/service-discovery-in-microservices/)
   * [Consul / Use Cases / Service Discovery](https://www.consul.io/discovery.html)
