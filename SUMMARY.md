@@ -23,6 +23,7 @@
     * [Functor and Monads](programming/functional-programming/functor-and-monads.md)
   * [DevOps](programming/devops/README.md)
     * [How our infrastructure organized](programming/devops/how-our-infrastructure-orgnaized.md)
+  * [Microsercies](programming/msa/README.md)
 * [Programming Languages](programming-languages/README.md)
   * [TypeScript](programming-languages/typescript.md)
   * [Python](programming-languages/python/README.md)
