@@ -11,6 +11,5 @@
 * 서비스 디스커버리
   * [마이크로서비스 Microservices (4) 서비스 디스커버리](https://futurecreator.github.io/2018/10/18/service-discovery-in-microservices/)
   * [Consul / Use Cases / Service Discovery](https://www.consul.io/discovery.html)
-  * [Amazon ECS Service Discovery
-](https://aws.amazon.com/blogs/aws/amazon-ecs-service-discovery/)
+  * [Amazon ECS Service Discovery](https://aws.amazon.com/blogs/aws/amazon-ecs-service-discovery/)
     * [내 Amazon ECS 서비스에서 작업이 서로 통신하도록 허용하려면 어떻게 해야 합니까?](https://aws.amazon.com/ko/premiumsupport/knowledge-center/ecs-tasks-services-communication/)
