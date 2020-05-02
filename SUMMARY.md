@@ -37,6 +37,7 @@
   * [Useful Commands](cli/useful-commands.md)
   * [Reducing ZSH startup time](cli/reduce-zsh-startup.md)
   * [Refactoring .zshrc](cli/refactoring-zshrc.md)
+  * [Git](cli/git.md)
 * [Tools](tools/README.md)
   * [iTerm2](tools/iterm2.md)
   * [PyCharm](tools/pycharm.md)
