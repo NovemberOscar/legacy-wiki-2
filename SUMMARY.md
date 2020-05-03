@@ -45,3 +45,5 @@
   * [Keyboard](lifehack/keyboard.md)
   * [Coding on iPad](lifehack/ipad-coding.md)
   * [My macOS configuration](lifehack/my-macos.md)
+* [Homelab](homelab/README.md)
+  * [Planning](homelab/planning.md)
