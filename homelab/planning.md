@@ -31,3 +31,18 @@
   * k3sup
   * arkade
   * openfaas
+
+## Links
+* [unlimited power! my unstoppable raspberry pi kubernetes cluster](https://downey.io/blog/how-to-build-raspberry-pi-kubernetes-cluster/)
+* [K3s on Raspberry Pi Cluster](https://ddii.dev/kubernetes/k3s-homelab/#)
+* [Kubernetes Raspberry Pi 소형 IDC 구축](http://www.iorchard.net/2017/02/09/kubernetes_raspberry_pi_idc.html)
+* [Kubernetes on Raspberry Pi 4b with 64-bit OS from scratch](https://github.com/mhausenblas/kube-rpi)
+* [Make your very own Kubernetes cluster from a Raspberry PI](https://medium.com/nycdev/k8s-on-pi-9cc14843d43)
+* [Setting up a Kubernetes 1.11 Raspberry Pi Cluster using kubeadm](https://kubecloud.io/setting-up-a-kubernetes-1-11-raspberry-pi-cluster-using-kubeadm-952bbda329c8)
+* [Build your own bare-metal ARM cluster](https://blog.alexellis.io/build-your-own-bare-metal-arm-cluster/)
+  * [Kubernetes on Raspbian](https://github.com/teamserverless/k8s-on-raspbian)
+* [Kubernetes Homelab with Raspberry Pi and k3sup](https://blog.alexellis.io/raspberry-pi-homelab-with-k3sup/)
+* [Will it cluster? k3s on your Raspberry Pi](https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/)
+* [Serverless Kubernetes home-lab with your Raspberry Pis](https://blog.alexellis.io/serverless-kubernetes-on-raspberry-pi/)
+  * [Kubernetes on (vanilla) Raspbian Lite](https://github.com/teamserverless/k8s-on-raspbian/blob/master/GUIDE.md)
+* 
