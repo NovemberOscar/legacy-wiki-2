@@ -126,4 +126,5 @@ description: println!("Hello World!");
 ## Links
 
 * [https://rinthel.github.io/rust-lang-book-ko/](https://rinthel.github.io/rust-lang-book-ko/)
+* [Functional Programming Jargon in Rust](https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555)
 
