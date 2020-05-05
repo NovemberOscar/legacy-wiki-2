@@ -14,6 +14,7 @@
   * [Algorithms](computer-science/algorithms/README.md)
     * [Introduction To Algorithms](computer-science/algorithms/introduction-to-algorithms/README.md)
       * [1.1. 알고리즘의 역할](computer-science/algorithms/introduction-to-algorithms/1.1.md)
+      * [1.2. 시작하기](/computer-science/algorithms/introduction-to-algorithms/1.2.md)
   * [SICP](computer-science/sicp/README.md)
   * [Lambda Calculus](computer-science/lambda-calculus.md)
 * [Programming](programming/README.md)
