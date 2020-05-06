@@ -48,3 +48,4 @@
   * [My macOS configuration](lifehack/my-macos.md)
 * [Homelab](homelab/README.md)
   * [Planning](homelab/planning.md)
+  * [Configuring RPi](homelab/configuring-rpi.md)
