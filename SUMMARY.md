@@ -36,6 +36,7 @@
   * [F\#](programming-languages/fsharp/README.md)
     * [Dos & Don'ts](programming-languages/fsharp/fsharp-do-and-dont.md)
   * [Go](programming-languages/go.md)
+  * [Kotilin](programming-languages/kotlin.md)
 * [CLI](cli/README.md)
   * [dotfiles](cli/dotfiles.md)
   * [Useful Commands](cli/useful-commands.md)
