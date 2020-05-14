@@ -25,6 +25,7 @@
   * [Microsercies](programming/msa/README.md)
 * [DevOps](devops/README.md)
   * [How our infrastructure organized](devops/how-our-infrastructure-orgnaized.md)
+  * [Optimize Dockerfile](devops/optimize-dockerfile.md)
 * [Web](web/README.md)
   * [OAuth](web/oauth/README.md)
     * [Sign in with Apple](web/oauth/sign-in-with-apple.md)
