@@ -54,3 +54,6 @@
 * [Homelab](homelab/README.md)
   * [Planning](homelab/planning.md)
   * [Configuring RPi](homelab/configuring-rpi.md)
+* [Database](database/README.md)
+  * [SQL](database/sql/README.md)
+    * [Prepared Statement](database/sql/prepared-statement.md)
