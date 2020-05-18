@@ -52,6 +52,7 @@
   * [Keyboard](lifehack/keyboard.md)
   * [Coding on iPad](lifehack/ipad-coding.md)
   * [My macOS configuration](lifehack/my-macos.md)
+  * [Faster internet with Cloudflare WARP](lifehack/faster-internet-with-cf-warp.md)
 * [Homelab](homelab/README.md)
   * [Planning](homelab/planning.md)
   * [Configuring RPi](homelab/configuring-rpi.md)
