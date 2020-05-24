@@ -18,3 +18,5 @@ description: 주기적으로 재정렬 및 정리할것!
 8. 개발자의 글쓰기
 9. 듄 1부
 10. [Domain Modeling Made Functional](https://pragprog.com/book/swdddf/domain-modeling-made-functional)
+11. 리눅스 시스템 프로그래밍
+12. 디버깅을 통해 배우는 리눅스 커널의 구조와 원리 1 2
