@@ -23,6 +23,8 @@
     * [ADT](programming/functional-programming/adt.md)
     * [Functor and Monads](programming/functional-programming/functor-and-monads.md)
   * [Microservices](programming/msa/README.md)
+* [Debugging](debugging/README.md)
+  * [objdump](debugging/objdump.md)
 * [DevOps](devops/README.md)
   * [How our infrastructure organized](devops/how-our-infrastructure-orgnaized.md)
   * [Optimize Dockerfile](devops/optimize-dockerfile.md)
