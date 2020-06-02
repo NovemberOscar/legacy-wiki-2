@@ -1,5 +1,17 @@
 # Spring Framework
 
+## Spring Triangle
+
+* IoC(Inversion of Control)
+  * @Autowired, 생성자 인젝션, 세터 인젝션
+* AOP(Aspect Oriented Programming)
+  * 메소드에는 최대한 비즈니스로직만 유지하자
+  * 파이썬의 데코레이터같은느낌 (어노테이션 쓰면 문법도 비슷함)
+  * 컴파일타임/로드타임/런타임
+* PSA(Portable Service Abstraction)
+  * 어노테이션 등을 사용해서 서블릿같은 로우레벨을 노출하지 않음으로써 개발자에게 편의성 제공
+  * @Controller, @GetMapping, ...
+
 ## Links
 
 * [예제로 배우는 스프링 입문 (개정판)](https://www.inflearn.com/course/spring_revised_edition#description)
