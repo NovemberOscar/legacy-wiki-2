@@ -129,3 +129,5 @@ description: println!("Hello World!");
 * [Functional Programming Jargon in Rust](https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555)
 * [Getting Started with Rust by Building a Tiny Markdown Compiler](https://jesselawson.org/rust/getting-started-with-rust-by-building-a-tiny-markdown-compiler/)
 * [Writing an OS in Rust](https://os.phil-opp.com/)
+* [Rust: Dropping heavy things in another thread can make your code 10000 times faster](https://abramov.io/rust-dropping-things-in-another-thread)
+* [The Rustnomicon](https://doc.rust-lang.org/stable/nomicon/)
