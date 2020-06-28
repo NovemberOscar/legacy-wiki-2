@@ -11,6 +11,7 @@
 * [Memo](memo/README.md)
   * [2020 Memo](memo/2020.md)
 * [Computer Science](computer-science/README.md)
+  * [OS](computer-science/os/README.md)
   * [Algorithms](computer-science/algorithms/README.md)
     * [Introduction To Algorithms](computer-science/algorithms/introduction-to-algorithms/README.md)
       * [1.1. 알고리즘의 역할](computer-science/algorithms/introduction-to-algorithms/1.1.md)
