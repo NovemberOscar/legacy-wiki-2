@@ -7,17 +7,18 @@
 - [x] 2020-03 1453 콘스탄티노플 최후의 날
 - [x] 2020-02 슈뢰딩거의 고양희 / 반-바지
 - [x] 2020-01 바람의 열두 방향 / 어슐러 르 귄 
+- [x] 땡스 갓, 잇츠 프라이데이 / 심너울
 
-- [ ] 땡스 갓, 잇츠 프라이데이 / 심너울
 - [ ] 숨 / 테드 창
 - [ ] [컴퓨터 프로그램의 구조와 해석 (SICP)](/computer-science/sicp/README.md)
-- [ ] [Rust 프로그래밍 공식 가이드](/programming-languages/rust.md#러스트-프로그래밍-공식-가이드)
+- [x] [Rust 프로그래밍 공식 가이드](/programming-languages/rust.md#러스트-프로그래밍-공식-가이드)
 - [ ] Ahriman - The Omnibus (해외도서) / 존 프렌치
 - [ ] 더 위험한 과학책 / 랜들 먼로
 - [ ] 앨런 튜링, 지능에 관하여 / 앨런 튜링
 - [ ] [인트로덕션 투 알고리즘](/computer-science/algorithms/README.md#introduction-to-algorithms)
 - [ ] Pro Git
 - [ ] [A Tutorial Introduction to the Lambda Calculus / Raul Rojas](/computer-science/lambda-calculus.md)
+- [ ] [리눅스 시스템 프로그래밍]
 
 ## 2019
 
