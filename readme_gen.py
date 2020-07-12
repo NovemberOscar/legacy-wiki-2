@@ -38,6 +38,16 @@ def get_titles(logs):
 
     return logs_with_names[:20]
 
+def get_modified_date(logs):
+    logs_with_date = list()
+
+    for log in logs:
+        r = subprocess.run(["git", "log", "-1", "--pretty='%ci'", log[1]], stdout=subprocess.PIPE, text=True)
+        date = r.stdout.replace("'", "").replace("\n", "")[:-5]
+        logs_with_date.append([*log, date])
+
+    return logs_with_date
+
 
 def generate_readme(logs):
     content = ""
@@ -46,8 +56,9 @@ def generate_readme(logs):
         # annotation = "- *New File*" if log[0] == "A" else ""
         file_path = log[1]
         title = log[2]
+        date = log[3]
 
-        content += f"* [**{title}** - {file_path}]({file_path})\n"
+        content += f"* {date} - [{title}]({file_path}) - *{file_path}*\n"
 
     with open("README.md.template", "r") as template:
         template = ''.join(template.readlines())
@@ -65,5 +76,6 @@ if __name__ == "__main__":
     v = get_git_logs()
     v = remove_duplicate(v)
     v = get_titles(v)
+    v = get_modified_date(v)
     v = generate_readme(v)
     write_readme(v)
