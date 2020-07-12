@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Auxiliary Memory](README.md)
+* [Recent Changes](CHANGELOG.md)
 * [Disclaimer](DISCLAIMER.md)
 
 ## general

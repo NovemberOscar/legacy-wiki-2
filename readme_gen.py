@@ -6,7 +6,7 @@ def get_git_logs():
     r = subprocess.run(["git", "log", "--name-status", "HEAD~100..HEAD", "--pretty=format:", "."], stdout=subprocess.PIPE, text=True)
     r = [i.split("\t") for i in r.stdout.split("\n") if i != ""]
     r = [i for i in r if i[0] in ("A", "M")]
-    r = [i for i in r if (i[1] not in ("README.md", "SUMMARY.md")) and (not i[1].startswith(".")) and i[1].endswith(".md")]
+    r = [i for i in r if (i[1] not in ("README.md", "SUMMARY.md", "CHANGELOG.md")) and (not i[1].startswith(".")) and i[1].endswith(".md")]
 
     return r
 
@@ -36,7 +36,7 @@ def get_titles(logs):
         except FileNotFoundError:
             pass
 
-    return logs_with_names[:20]
+    return logs_with_names
 
 def get_modified_date(logs):
     logs_with_date = list()
@@ -49,7 +49,7 @@ def get_modified_date(logs):
     return logs_with_date
 
 
-def generate_readme(logs):
+def render_template(logs, template):
     content = ""
 
     for log in logs:
@@ -60,16 +60,16 @@ def generate_readme(logs):
 
         content += f"* {date} - [{title}]({file_path}) - *{file_path}*\n"
 
-    with open("README.md.template", "r") as template:
+    with open(f"{template}.template", "r") as template:
         template = ''.join(template.readlines())
         filled_readme = re.sub(r"{{CHANGES}}", content, template)
 
     return filled_readme
 
 
-def write_readme(readme):
-    with open("README.md", "w") as f:
-        f.writelines(readme)
+def write_content(content, filename):
+    with open(filename, "w") as f:
+        f.writelines(content)
 
 
 if __name__ == "__main__":
@@ -77,5 +77,9 @@ if __name__ == "__main__":
     v = remove_duplicate(v)
     v = get_titles(v)
     v = get_modified_date(v)
-    v = generate_readme(v)
-    write_readme(v)
+
+    readme = render_template(v[:20], "README.md")
+    write_content(readme, "README.md")
+
+    changelog = render_template(v, "CHANGELOG.md")
+    write_content(changelog, "CHANGELOG.md")
