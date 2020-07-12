@@ -18,6 +18,33 @@ description: 기억의 보존 및 체계화를 위한 위키
 * 기억의 장기 보존
 * 기억의 체계
 
+## Recent Changes
+
+recently changed 20 files
+
+* [books/linux-system-programming/README.md](books/linux-system-programming/README.md)
+* [books/linux-system-programming/chapter-1.md](books/linux-system-programming/chapter-1.md)
+* [lifelog/books/README.md](lifelog/books/README.md)
+* [programming/os/README.md](programming/os/README.md)
+* [books/introduction-to-algorithms/1.1.md](books/introduction-to-algorithms/1.1.md)
+* [books/introduction-to-algorithms/1.2.md](books/introduction-to-algorithms/1.2.md)
+* [books/introduction-to-algorithms/README.md](books/introduction-to-algorithms/README.md)
+* [books/lambda-calculus.md](books/lambda-calculus.md)
+* [books/sicp.md](books/sicp.md)
+* [books/the-rust-programming-language.md](books/the-rust-programming-language.md)
+* [general/homelab/README.md](general/homelab/README.md)
+* [general/homelab/configuring-rpi.md](general/homelab/configuring-rpi.md)
+* [general/homelab/dockerize-unifi-controller.md](general/homelab/dockerize-unifi-controller.md)
+* [general/homelab/planning.md](general/homelab/planning.md)
+* [general/lifehack/README.md](general/lifehack/README.md)
+* [general/lifehack/faster-internet-with-cf-warp.md](general/lifehack/faster-internet-with-cf-warp.md)
+* [general/lifehack/ipad-coding.md](general/lifehack/ipad-coding.md)
+* [lifelog/bookmarks.md](lifelog/bookmarks.md)
+* [lifelog/books/reading-queue.md](lifelog/books/reading-queue.md)
+* [lifelog/movies.md](lifelog/movies.md)
+* [lifelog/public-memos/2020.md](lifelog/public-memos/2020.md)
+
+
 ## Disclaimer
 
 본 위키는 개인의 지식을 정리하는 용도입니다. 제 주관적인 의견이 포함되어 있을 수 있고, 여기에 수록된 개별 분야에 관한 어떠한 글도 전문가에 의해 특별히 검토되지 않기 때문에 어떤 주제에 대해서도 정확하고 또는 신뢰할 수 있는 정보를 제공한다고 보장하지 않습니다.
