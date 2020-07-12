@@ -14,7 +14,7 @@
 
 ## lifelog
 
-* [Links](lifelog/bookmarks.md)
+* [Links](lifelog/links.md)
 * [Movies](lifelog/movies.md)
 * [Books](lifelog/books/README.md)
   * [Reading Queue](lifelog/books/reading-queue.md)
