@@ -3,7 +3,7 @@ import subprocess
 from pprint import pprint
 
 def get_git_logs():
-    r = subprocess.run(["git", "log", "--name-status", "HEAD~20..HEAD", "--pretty=format:", "."], stdout=subprocess.PIPE, text=True)
+    r = subprocess.run(["git", "log", "--name-status", "HEAD~100..HEAD", "--pretty=format:", "."], stdout=subprocess.PIPE, text=True)
     r = [i.split("\t") for i in r.stdout.split("\n") if i != ""]
     r = [i for i in r if i[0] in ("A", "M")]
     r = [i for i in r if (i[1] not in ("README.md", "SUMMARY.md")) and (not i[1].startswith(".")) and i[1].endswith(".md")]
