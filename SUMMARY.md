@@ -32,6 +32,8 @@
 * [Introduction To Algorithms](books/introduction-to-algorithms/README.md)
   * [1.1. 알고리즘의 역할](books/introduction-to-algorithms/1.1.md)
   * [1.2. 시작하기](books/introduction-to-algorithms/1.2.md)
+* [Linux System Programming 2/E](books/linux-system-programming/README.md)
+  * [1. 핵심 개념 소개](books/linux-system-programming/chapter-1.md)
 
 ## Programming
 
