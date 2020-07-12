@@ -1,0 +1,5 @@
+#!/bin/bash
+
+.bin/script.sh
+
+git add README.md
