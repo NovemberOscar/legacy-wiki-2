@@ -2,7 +2,7 @@
 description: 기억의 보존 및 체계화를 위한 위키
 ---
 
-# Auxiliary Memory / 보조기억장치
+# Auxiliary Memory
 
 ## Profile
 
