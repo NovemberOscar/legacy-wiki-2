@@ -47,7 +47,7 @@ def generate_readme(logs):
         file_path = log[1]
         title = log[2]
 
-        content += f"* [{title} - {file_path}]({file_path})\n"
+        content += f"* [**{title}** - {file_path}]({file_path})\n"
 
     with open("README.md.template", "r") as template:
         template = ''.join(template.readlines())
