@@ -22,7 +22,6 @@ description: 기억의 보존 및 체계화를 위한 위키
 
 recently changed 20 files
 
-* [**Bookmarks** - bookmarks.md](bookmarks.md)
 * [**Linux System Programming** - books/linux-system-programming/README.md](books/linux-system-programming/README.md)
 * [**1. 핵심 개념 소개** - books/linux-system-programming/chapter-1.md](books/linux-system-programming/chapter-1.md)
 * [**Books** - lifelog/books/README.md](lifelog/books/README.md)
@@ -42,6 +41,7 @@ recently changed 20 files
 * [**Coding on iPad** - general/lifehack/ipad-coding.md](general/lifehack/ipad-coding.md)
 * [**Reading Queue** - lifelog/books/reading-queue.md](lifelog/books/reading-queue.md)
 * [**Movies** - lifelog/movies.md](lifelog/movies.md)
+* [**2020 Memo** - lifelog/public-memos/2020.md](lifelog/public-memos/2020.md)
 
 
 ## Disclaimer
