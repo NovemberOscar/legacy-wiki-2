@@ -1,5 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 .bin/script.sh
 
 git add README.md
+
+exit 0

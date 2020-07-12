@@ -4,8 +4,6 @@ description: 유용한 링크 모음
 
 # Bookmarks
 
-
-
 ### 2019
 
 * [ ] [Your Guide to the CPython Source Code](ttps://realpython.com/cpython-source-code-guide/)
@@ -51,4 +49,4 @@ description: 유용한 링크 모음
 * [x] ['커리어를 완전히 바꾸는 메모 작성법'](https://twitter.com/Imseong/status/1239212007779229696?s=20)
 * [ ] [Write yourself a Git!](https://wyag.thb.lt/)
 * [ ] [능력있는 개발자는 어떻게 알아 볼 수 있나?](https://docs.google.com/document/d/1_phA5XUszSmN7Ta-QHs4DxRz9_iu8YlhxpVjSGEbWcg/edit?usp=sharing)
-
+* [ ] [NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
