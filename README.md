@@ -13,25 +13,25 @@ description: 기억의 보존 및 체계화를 위한 위키
 
 최대 20개의 최근 수정된 파일 목록
 
-* [**Disclaimer** - DISCLAIMER.md](DISCLAIMER.md)
-* [**Links** - lifelog/links.md](lifelog/links.md)
-* [**Linux System Programming** - books/linux-system-programming/README.md](books/linux-system-programming/README.md)
-* [**1. 핵심 개념 소개** - books/linux-system-programming/chapter-1.md](books/linux-system-programming/chapter-1.md)
-* [**Books** - lifelog/books/README.md](lifelog/books/README.md)
-* [**OS** - programming/os/README.md](programming/os/README.md)
-* [**1.1. 알고리즘의 역할** - books/introduction-to-algorithms/1.1.md](books/introduction-to-algorithms/1.1.md)
-* [**1.2. 시작하기** - books/introduction-to-algorithms/1.2.md](books/introduction-to-algorithms/1.2.md)
-* [**Introduction To Algorithms** - books/introduction-to-algorithms/README.md](books/introduction-to-algorithms/README.md)
-* [**Lambda Calculus** - books/lambda-calculus.md](books/lambda-calculus.md)
-* [**SICP** - books/sicp.md](books/sicp.md)
-* [**The Rust Programming Language** - books/the-rust-programming-language.md](books/the-rust-programming-language.md)
-* [**Homelab** - general/homelab/README.md](general/homelab/README.md)
-* [**Configuring RPi** - general/homelab/configuring-rpi.md](general/homelab/configuring-rpi.md)
-* [**Dockerize Unifi Controller** - general/homelab/dockerize-unifi-controller.md](general/homelab/dockerize-unifi-controller.md)
-* [**Planning** - general/homelab/planning.md](general/homelab/planning.md)
-* [**Lifehack** - general/lifehack/README.md](general/lifehack/README.md)
-* [**Faster internet with Cloudflare WARP** - general/lifehack/faster-internet-with-cf-warp.md](general/lifehack/faster-internet-with-cf-warp.md)
-* [**Coding on iPad** - general/lifehack/ipad-coding.md](general/lifehack/ipad-coding.md)
-* [**Reading Queue** - lifelog/books/reading-queue.md](lifelog/books/reading-queue.md)
+* 2020-07-12 22:27:55  - [Disclaimer](DISCLAIMER.md) - *DISCLAIMER.md*
+* 2020-07-12 22:19:08  - [Links](lifelog/links.md) - *lifelog/links.md*
+* 2020-07-12 15:26:28  - [Linux System Programming](books/linux-system-programming/README.md) - *books/linux-system-programming/README.md*
+* 2020-07-12 15:26:28  - [1. 핵심 개념 소개](books/linux-system-programming/chapter-1.md) - *books/linux-system-programming/chapter-1.md*
+* 2020-07-12 06:11:28  - [Books](lifelog/books/README.md) - *lifelog/books/README.md*
+* 2020-07-12 06:11:28  - [OS](programming/os/README.md) - *programming/os/README.md*
+* 2020-07-12 15:07:33  - [1.1. 알고리즘의 역할](books/introduction-to-algorithms/1.1.md) - *books/introduction-to-algorithms/1.1.md*
+* 2020-07-12 15:07:33  - [1.2. 시작하기](books/introduction-to-algorithms/1.2.md) - *books/introduction-to-algorithms/1.2.md*
+* 2020-07-12 15:07:33  - [Introduction To Algorithms](books/introduction-to-algorithms/README.md) - *books/introduction-to-algorithms/README.md*
+* 2020-07-12 15:07:33  - [Lambda Calculus](books/lambda-calculus.md) - *books/lambda-calculus.md*
+* 2020-07-12 15:07:33  - [SICP](books/sicp.md) - *books/sicp.md*
+* 2020-07-12 15:07:33  - [The Rust Programming Language](books/the-rust-programming-language.md) - *books/the-rust-programming-language.md*
+* 2020-07-12 15:07:33  - [Homelab](general/homelab/README.md) - *general/homelab/README.md*
+* 2020-07-12 15:07:33  - [Configuring RPi](general/homelab/configuring-rpi.md) - *general/homelab/configuring-rpi.md*
+* 2020-07-12 15:07:33  - [Dockerize Unifi Controller](general/homelab/dockerize-unifi-controller.md) - *general/homelab/dockerize-unifi-controller.md*
+* 2020-07-12 15:07:33  - [Planning](general/homelab/planning.md) - *general/homelab/planning.md*
+* 2020-07-12 15:07:33  - [Lifehack](general/lifehack/README.md) - *general/lifehack/README.md*
+* 2020-07-12 15:07:33  - [Faster internet with Cloudflare WARP](general/lifehack/faster-internet-with-cf-warp.md) - *general/lifehack/faster-internet-with-cf-warp.md*
+* 2020-07-12 15:07:33  - [Coding on iPad](general/lifehack/ipad-coding.md) - *general/lifehack/ipad-coding.md*
+* 2020-07-12 15:07:33  - [Reading Queue](lifelog/books/reading-queue.md) - *lifelog/books/reading-queue.md*
 
 
