@@ -2,8 +2,8 @@ import re
 import subprocess
 from pprint import pprint
 
-def get_git_logs():
-    r = subprocess.run(["git", "log", "--name-status", "HEAD~100..HEAD", "--pretty=format:", "."], stdout=subprocess.PIPE, text=True)
+def get_git_logs(limit):
+    r = subprocess.run(["git", "log", "--name-status", f"HEAD~{limit}..HEAD", "--pretty=format:", "."], stdout=subprocess.PIPE, text=True)
     r = [i.split("\t") for i in r.stdout.split("\n") if i != ""]
     r = [i for i in r if i[0] in ("A", "M")]
     r = [i for i in r if (i[1] not in ("README.md", "SUMMARY.md", "CHANGELOG.md")) and (not i[1].startswith(".")) and i[1].endswith(".md")]
@@ -73,7 +73,7 @@ def write_content(content, filename):
 
 
 if __name__ == "__main__":
-    v = get_git_logs()
+    v = get_git_logs(100)
     v = remove_duplicate(v)
     v = get_titles(v)
     v = get_modified_date(v)
