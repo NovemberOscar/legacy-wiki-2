@@ -2,6 +2,7 @@
 
 최근 100 커밋의 변경된 파일 목록
 
+* 2020-07-23 00:16:16  - [Useful Commands](my-environment/cli/useful-commands.md) - *my-environment/cli/useful-commands.md*
 * 2020-07-12 22:27:55  - [Disclaimer](DISCLAIMER.md) - *DISCLAIMER.md*
 * 2020-07-12 22:19:08  - [Links](lifelog/links.md) - *lifelog/links.md*
 * 2020-07-12 15:26:28  - [Linux System Programming](books/linux-system-programming/README.md) - *books/linux-system-programming/README.md*
@@ -32,7 +33,6 @@
 * 2020-07-12 15:07:33  - [Dotfiles](my-environment/cli/dotfiles/README.md) - *my-environment/cli/dotfiles/README.md*
 * 2020-07-12 15:07:33  - [Refactoring .zshrc](my-environment/cli/dotfiles/refactoring-zshrc.md) - *my-environment/cli/dotfiles/refactoring-zshrc.md*
 * 2020-07-12 15:07:33  - [iTerm2](my-environment/cli/iterm2.md) - *my-environment/cli/iterm2.md*
-* 2020-07-12 15:07:33  - [Useful Commands](my-environment/cli/useful-commands.md) - *my-environment/cli/useful-commands.md*
 * 2020-07-12 15:07:33  - [My Keyboards](my-environment/my-keyboards.md) - *my-environment/my-keyboards.md*
 * 2020-07-12 15:07:33  - [My Macbook](my-environment/my-macos.md) - *my-environment/my-macos.md*
 * 2020-07-12 15:07:33  - [My PyCharm](my-environment/pycharm.md) - *my-environment/pycharm.md*
