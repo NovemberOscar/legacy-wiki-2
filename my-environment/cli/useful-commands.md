@@ -56,3 +56,36 @@ fd() {
 }
 ```
 
+### AWS-CLI 리전을 쉽게 전환하는 유틸리티
+
+aws-cli 에서 리전을 설정하려면 매번 `export AWS_REGION=ap-northeast-2` 식으로 타이핑을 해 주어야 하는데 좀 귀찮은 감이 있어서 fzf 를 사용해 아래처럼 쓸 수 있는 [간단한 유틸리티를 하나 만들어 보았다.](https://github.com/NovemberOscar/dotfiles/blob/master/aregion)
+
+```
+~
+❯ aregion
+> ap
+  7/23
+> ap-east-1
+  ap-south-1
+  ap-northeast-3
+  ap-northeast-2
+  ap-southeast-1
+  ap-southeast-2
+  ap-northeast-1
+
+```
+
+줄바꿈으로 구분된 리전의 목록 문자열을 만든 후, 그 문자열에서 fzf를 돌려서 리전을 선택하면 환경 변수를 설정하도록 함수를 구성했다.
+
+```bash
+function aregion {
+    REGIONS="
+us-east-2
+... (중략)
+sa-east-1
+    " \
+    && REGION=`echo $REGIONS | fzf --height 10 --layout reverse` \
+    && export AWS_DEFAULT_REGION="$REGION"
+}
+```
+
