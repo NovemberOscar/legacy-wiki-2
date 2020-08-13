@@ -13,9 +13,10 @@ description: 기억의 보존 및 체계화를 위한 위키
 
 최대 20개의 최근 수정된 파일 목록
 
+* 2020-08-13 11:39:14  - [Microservices](programming/msa.md) - *programming/msa.md*
+* 2020-08-13 11:38:57  - [Links](lifelog/links.md) - *lifelog/links.md*
 * 2020-07-23 00:16:16  - [Useful Commands](my-environment/cli/useful-commands.md) - *my-environment/cli/useful-commands.md*
 * 2020-07-12 22:27:55  - [Disclaimer](DISCLAIMER.md) - *DISCLAIMER.md*
-* 2020-07-12 22:19:08  - [Links](lifelog/links.md) - *lifelog/links.md*
 * 2020-07-12 15:26:28  - [Linux System Programming](books/linux-system-programming/README.md) - *books/linux-system-programming/README.md*
 * 2020-07-12 15:26:28  - [1. 핵심 개념 소개](books/linux-system-programming/chapter-1.md) - *books/linux-system-programming/chapter-1.md*
 * 2020-07-12 06:11:28  - [Books](lifelog/books/README.md) - *lifelog/books/README.md*
@@ -32,6 +33,5 @@ description: 기억의 보존 및 체계화를 위한 위키
 * 2020-07-12 15:07:33  - [Planning](general/homelab/planning.md) - *general/homelab/planning.md*
 * 2020-07-12 15:07:33  - [Lifehack](general/lifehack/README.md) - *general/lifehack/README.md*
 * 2020-07-12 15:07:33  - [Faster internet with Cloudflare WARP](general/lifehack/faster-internet-with-cf-warp.md) - *general/lifehack/faster-internet-with-cf-warp.md*
-* 2020-07-12 15:07:33  - [Coding on iPad](general/lifehack/ipad-coding.md) - *general/lifehack/ipad-coding.md*
 
 
