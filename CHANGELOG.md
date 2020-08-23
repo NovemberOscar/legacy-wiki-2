@@ -8,7 +8,6 @@
 |2020-08-23 21:16:06 |[Moving Unifi Controller to Bare Metal RPi](general/homelab/moving-unifi-controller-to-bare-metal-rpi.md)|*general/homelab/moving-unifi-controller-to-bare-metal-rpi.md*|
 |2020-08-13 11:39:14 |[Microservices](programming/msa.md)|*programming/msa.md*|
 |2020-08-13 11:38:57 |[Links](lifelog/links.md)|*lifelog/links.md*|
-|2020-07-23 00:16:16 |[Useful Commands](my-environment/cli/useful-commands.md)|*my-environment/cli/useful-commands.md*|
 |2020-07-12 22:27:55 |[Disclaimer](DISCLAIMER.md)|*DISCLAIMER.md*|
 |2020-07-12 15:26:28 |[Linux System Programming](books/linux-system-programming/README.md)|*books/linux-system-programming/README.md*|
 |2020-07-12 15:26:28 |[1. 핵심 개념 소개](books/linux-system-programming/chapter-1.md)|*books/linux-system-programming/chapter-1.md*|
@@ -34,10 +33,6 @@
 |2020-07-12 15:07:33 |[Records of 2019](lifelog/yearly-records/2019.md)|*lifelog/yearly-records/2019.md*|
 |2020-07-12 15:07:33 |[Records of 2020](lifelog/yearly-records/2020.md)|*lifelog/yearly-records/2020.md*|
 |2020-07-12 15:07:33 |[Yearly Records](lifelog/yearly-records/README.md)|*lifelog/yearly-records/README.md*|
-|2020-07-12 15:07:33 |[My CLI](my-environment/cli/README.md)|*my-environment/cli/README.md*|
-|2020-07-12 15:07:33 |[Dotfiles](my-environment/cli/dotfiles/README.md)|*my-environment/cli/dotfiles/README.md*|
-|2020-07-12 15:07:33 |[Refactoring .zshrc](my-environment/cli/dotfiles/refactoring-zshrc.md)|*my-environment/cli/dotfiles/refactoring-zshrc.md*|
-|2020-07-12 15:07:33 |[iTerm2](my-environment/cli/iterm2.md)|*my-environment/cli/iterm2.md*|
 |2020-07-12 15:07:33 |[My Keyboards](my-environment/my-keyboards.md)|*my-environment/my-keyboards.md*|
 |2020-07-12 15:07:33 |[My Macbook](my-environment/my-macos.md)|*my-environment/my-macos.md*|
 |2020-07-12 15:07:33 |[My PyCharm](my-environment/pycharm.md)|*my-environment/pycharm.md*|
