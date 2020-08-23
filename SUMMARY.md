@@ -10,6 +10,7 @@
   * [Planning](general/homelab/planning.md)
   * [Configuring RPi](general/homelab/configuring-rpi.md)
   * [Dockerize Unifi Controller](general/homelab/dockerize-unifi-controller.md)
+  * [Moving Unifi Controller to Bare Metal RPi](general/homelab/moving-unifi-controller-to-bare-metal-rpi.md)
 * [Lifehack](general/lifehack/README.md)
   * [Coding on iPad](general/lifehack/ipad-coding.md)
   * [Faster internet with Cloudflare WARP](general/lifehack/faster-internet-with-cf-warp.md)
