@@ -25,3 +25,4 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4.4.0
       with:
         commit_message: "[Bot] Update recent changes"
+        commit_author: Recent Updater <recent-updater@wiki.seonghyeon.dev>

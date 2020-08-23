@@ -50,7 +50,11 @@ def get_modified_date(logs):
 
 
 def render_template(logs, template):
-    content = ""
+    content = \
+"""
+|Date|Page|Path|
+|----|----|----|
+"""
 
     for log in logs:
         # annotation = "- *New File*" if log[0] == "A" else ""
@@ -58,7 +62,7 @@ def render_template(logs, template):
         title = log[2]
         date = log[3]
 
-        content += f"* {date} - [{title}]({file_path}) - *{file_path}*\n"
+        content += f"|{date}|[{title}]({file_path})|*{file_path}*|\n"
 
     with open(f"{template}.template", "r") as template:
         template = ''.join(template.readlines())
